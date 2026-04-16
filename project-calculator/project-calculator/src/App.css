@@ -1,0 +1,19 @@
+.border{
+  border: 2px solid black;
+  width: fit-content;
+background-color: rgb(223, 232, 232);
+border-color: rgb(18, 15, 15);
+padding:  20px;
+/* box-sizing: border-box; */
+border-radius: 5px solid rgb(9, 7, 7);
+
+}
+
+.display{
+  font-size: 20px;
+  height: 30px;
+  size: 100px;
+background-color: rgb(188, 200, 200);
+border-radius: 4px solid black;
+
+}

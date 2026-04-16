@@ -1,0 +1,23 @@
+.container1{
+    margin-top: 30px;
+    width: fit-content;
+    margin: 10px;
+    border: 2px solid black;
+    align-content: end;
+    padding: 20px;
+}
+.button{
+    padding: 5px;
+    margin: 5px;
+    color: aquamarine;
+}
+.row{
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 2px;
+}
+.head{
+    margin-bottom: 3px;
+    padding: 3px;
+    color: rgb(228, 61, 61);
+}
