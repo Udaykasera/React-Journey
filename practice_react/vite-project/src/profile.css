@@ -1,0 +1,67 @@
+.container{
+    margin-left: 25%;
+      margin-top: 25px;
+    padding: 10px;
+    border: 20px solid rgb(7, 123, 158);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    
+    height: 70vh;
+    width: 30vw;
+}
+.container_two{
+    background-color: beige;
+    display: flex;
+    border: 2px solid white;
+    padding-bottom:7px ;
+    height: 10%;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+.data_cart{
+    margin-top: 10px;
+    height: 85%;
+    width: 95%;
+    /* border: 2px solid black; */
+}
+.photo_cart{
+ /* margin: 10px; */
+ margin-left: 32%;
+    height: 37%;
+    width: 36%;
+    /* border: 2px solid black; */
+    border-radius:50%;
+
+}
+
+.photo_cart img{
+object-fit: cover;
+height: 100%;
+width: 100%;
+border-radius: 50%;
+}
+.persons_main_data_container{
+  margin-top: 10px;
+    height: 62%;
+    width: 100%;
+    /* border: 10px solid rgb(2, 31, 119); */
+    display: grid;
+    justify-content: center;
+}
+.name{
+    padding: -20px;
+    color: blue;
+    /* font-style: italic; */
+    font-weight: 900;
+    font-size: 30px;
+    margin-left: 45px;
+    /* margin-bottom: -100px; */
+}
+
+.name_box{
+    border: 10px solid bisque;
+}
