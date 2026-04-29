@@ -47,3 +47,10 @@ return (
 }
 export default SimpleForm
 
+
+
+// /* //   <input type="text" value={formData.name} name="name" placeholder="Name"  />
+    // <input type="email" name="email" placeholder="Email" value={formData.email}/>
+    // <input type="age" name="age" placeholder="Age" value={formData.age}/> */}
+// 
+// 

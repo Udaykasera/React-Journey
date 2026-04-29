@@ -1,15 +1,16 @@
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import './App.css'
 import FormLibrary from "./form_validation_by-library";
 import SimpleForm from "./simpleform";
 // import Bgcolor from "./bgcolor";
-
+import MultiValueForm from './multivalueform';
 function App() {
   return (
     <>
-    <SimpleForm/>
+    {/* <SimpleForm/> */}
     {/* <Bgcolor></Bgcolor> */}
-   <FormLibrary></FormLibrary>
+   {/* <FormLibrary></FormLibrary> */}
+    <MultiValueForm></MultiValueForm>
    </>
   )
 }
