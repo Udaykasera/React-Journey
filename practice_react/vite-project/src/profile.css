@@ -65,3 +65,13 @@ border-radius: 50%;
 .name_box{
     border: 10px solid bisque;
 }
+
+.main{
+    width: 50vw;
+    height: 30vh;
+    border: 2px solid black;
+}
+.liked {
+    margin-left: 35%;
+    /* margin-bottom: 10%; */
+}

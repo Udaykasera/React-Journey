@@ -1,9 +1,13 @@
 import './profile.css';
 import Hello from "./Hello.jsx";
+// import like from "./like.jsx";
+import Like from "./like.jsx"
 function Profile(){
 return <div className="container">
 
-    <div className='container_two'><h1>Profile</h1></div>
+    <div className='container_two'><h1>Profile</h1><br/>
+
+    </div>
 
     <div className='data_cart'>
 
@@ -13,6 +17,7 @@ return <div className="container">
         <div className='persons_main_data_container'>
             <div className='name_box'>
         <h2 className='name'>  Uday kasera</h2>
+            <Like></Like>
         </div>
 
         <Hello email="udaykaser34@gmail.com"age={23} gender="male"/>
@@ -21,11 +26,7 @@ return <div className="container">
 
 
         </div>
-
-
-
-
-
+    
     </div>
 }
 export default Profile
