@@ -6,7 +6,7 @@ import { forwardRef } from 'react';
  function MultiValueForm() {
     
     const[formData, setFormData] = useState({  name:"" , age:"", email:"", password:""})
-     const [submittedData, setSubmittedData] = useState(null);
+    const [submittedData, setSubmittedData] = useState(null);
     // const show;
      const Handelsubmmit =(event)=>{
         event.preventDefault();
@@ -14,7 +14,7 @@ import { forwardRef } from 'react';
         setSubmittedData(formData);
       }
        
-        const HandleChange=(event)=>{
+            const HandleChange=(event)=>{
             const{name,value}= event.target;
             setFormData((prev)=>({
                 ...prev,
